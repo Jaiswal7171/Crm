@@ -1,0 +1,416 @@
+[10-Apr-2024 06:09:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/db.php:8
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/db.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'google_inquiry_...')
+#1 /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php(1): include('/home3/vyavsaku...')
+#2 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/db.php on line 8
+[10-Apr-2024 06:10:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php on line 23
+[10-Apr-2024 06:10:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/db.php:16) in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php on line 28
+[10-Apr-2024 06:11:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/db.php:16) in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php on line 29
+[10-Apr-2024 06:58:17 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:17 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:17 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:17 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 06:58:18 UTC] PHP Warning:  Undefined array key "create_time" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1197
+[10-Apr-2024 07:04:56 UTC] PHP Warning:  move_uploaded_file(../admin_logo/advertise/b.jpg): Failed to open stream: No such file or directory in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php on line 183
+[10-Apr-2024 07:04:56 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpsgH2CC&quot; to &quot;../admin_logo/advertise/b.jpg&quot; in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/config.php on line 183
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:52:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:52:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:54:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:54:58 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php:1265
+Stack trace:
+#0 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:54:58 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php:1265
+Stack trace:
+#0 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:55:53 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php:1265
+Stack trace:
+#0 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:55:53 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php:1265
+Stack trace:
+#0 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 10:56:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1237
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1271
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:01:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1273
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1285
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1287
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1289
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:51 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:51 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1265
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Undefined variable $adminDetails in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 11:06:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1339
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1240
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1268
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1274
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1276
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1288
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1290
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1292
+[11-Apr-2024 13:12:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/view.php on line 1342
+[11-Apr-2024 13:15:03 UTC] PHP Parse error:  Unmatched '}' in /home3/vyavsaku/public_html/vdpl/Lead_genration/v_admin/edit.php on line 660
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Undefined array key "admin_details" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1240
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1268
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1274
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1276
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1288
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1290
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1292
+[11-Apr-2024 13:46:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 1342
+[12-Apr-2024 04:45:30 UTC] PHP Warning:  Undefined variable $_Get in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:30 UTC] PHP Warning:  Array to string conversion in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 653
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Undefined variable $_Get in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Array to string conversion in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 653
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Undefined variable $_Get in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 606
+[12-Apr-2024 04:45:31 UTC] PHP Warning:  Array to string conversion in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 653
+[12-Apr-2024 04:55:29 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 04:55:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 04:58:54 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 04:58:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 05:04:50 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 05:04:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 08:46:14 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 08:46:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 08:52:00 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 08:52:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 08:55:30 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 08:55:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:01:43 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:01:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:01:52 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:01:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:03:43 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:03:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:24:53 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:24:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:27:59 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:27:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:28:01 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:28:02 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:28:02 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:28:27 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:29:09 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:29:10 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:29:10 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:29:14 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[12-Apr-2024 09:29:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[12-Apr-2024 09:30:22 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:30:23 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[12-Apr-2024 09:30:23 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:40 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:41 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:41 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:45 UTC] PHP Warning:  Undefined array key "category_name" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 306
+[13-Apr-2024 04:25:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category_name' cannot be null in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php:313
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php(313): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/config.php on line 313
+[13-Apr-2024 04:25:47 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:48 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:48 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:49 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:49 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 04:25:50 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 06:16:30 UTC] PHP Parse error:  Unclosed '{' on line 2469 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2546
+[13-Apr-2024 06:17:22 UTC] PHP Parse error:  Unclosed '{' on line 2469 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2546
+[13-Apr-2024 06:40:12 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 06:40:12 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 06:40:13 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 09:47:48 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 09:47:48 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 09:47:49 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:41 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:42 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:42 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:09:42 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2559
+[13-Apr-2024 10:15:47 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:15:47 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:15:47 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:26 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:26 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:27 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:28 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:28 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:29 UTC] PHP Warning:  Undefined variable $data in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/add.php on line 729
+[13-Apr-2024 10:18:53 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 661
+[13-Apr-2024 10:18:53 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 661
+[13-Apr-2024 10:18:53 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 661
+[13-Apr-2024 10:19:29 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:19:29 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:19:29 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:19:54 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:19:55 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:19:55 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 662
+[13-Apr-2024 10:21:00 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 666
+[13-Apr-2024 10:21:01 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 666
+[13-Apr-2024 10:21:01 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 666
+[13-Apr-2024 10:21:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'resolve_answer' in 'field list' in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php:625
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php(625): mysqli_query(Object(mysqli), 'UPDATE help_sup...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 625
+[13-Apr-2024 10:21:05 UTC] PHP Warning:  Undefined array key "resolve_answer" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/edit.php on line 666
+[13-Apr-2024 10:45:17 UTC] PHP Parse error:  Unmatched '}' in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2576
+[13-Apr-2024 10:45:28 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2527
+[13-Apr-2024 10:45:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2531
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2531): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2531
+[13-Apr-2024 10:46:03 UTC] PHP Warning:  Undefined array key "id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2527
+[13-Apr-2024 10:46:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2531
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2531): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2531
+[13-Apr-2024 10:47:24 UTC] PHP Parse error:  Unmatched '}' in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2576
+[13-Apr-2024 10:47:36 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2526
+[13-Apr-2024 10:47:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2530
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2530): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2530
+[13-Apr-2024 10:47:58 UTC] PHP Warning:  Undefined array key "id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2526
+[13-Apr-2024 10:47:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2530
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2530): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2530
+[13-Apr-2024 10:48:51 UTC] PHP Parse error:  Unmatched '}' in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2578
+[13-Apr-2024 10:49:03 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2526
+[13-Apr-2024 10:49:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2530
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2530): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2530
+[13-Apr-2024 10:49:07 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2526
+[13-Apr-2024 10:49:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2530
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2530): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2530
+[13-Apr-2024 10:51:14 UTC] PHP Warning:  Undefined array key "id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2528
+[13-Apr-2024 10:51:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2531
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2531): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2531
+[13-Apr-2024 10:55:54 UTC] PHP Warning:  Undefined array key "feature_id" in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2528
+[13-Apr-2024 10:55:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php:2536
+Stack trace:
+#0 /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php(2536): mysqli_query(Object(mysqli), 'UPDATE package_...')
+#1 {main}
+  thrown in /home3/vyavsaku/public_html/vdpl/Lead_genration_project/v_admin/view.php on line 2536
